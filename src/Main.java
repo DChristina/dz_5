@@ -11,7 +11,7 @@ public class Main {
         int sum1 = a + b;
         int sum2 = c + d;
 
-        System.out.println("First sum bigger than second?  Answer:" + (sum1>sum2));
+        System.out.println("First sum bigger than second?  Answer:" + (sum1<sum2));
 
         sum1++;
         sum2 = sum2 -2;
